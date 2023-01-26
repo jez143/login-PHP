@@ -47,18 +47,16 @@ if(isset($_POST['login'])){
    <form action="" method="POST">
 
    <div class="login-field">
-   <input type="text" name="username" id="username" placeholder="Username" >
-   <i class="fa fa-user fa-lg logo" aria-hidden="true"></i> 
+     <input type="text" name="username" id="username" placeholder="Username" >
+     <i class="fa fa-user fa-lg logo" aria-hidden="true"></i> 
    </div>
-
-  
-   
+       
    <div class="login-field1">
-   <input type="password" name="password" id="password" placeholder="Password">
-   <i class="fa fa-key fa-lg logo " aria-hidden="true"></i>
+         <input type="password" name="password" id="password" placeholder="Password">
+        <i class="fa fa-key fa-lg logo " aria-hidden="true"></i>
    </div>
 
-    <button type="submit" class="login-page" name="login">Login</button>
+     <button type="submit" class="login-page" name="login">Login</button>
    </form>
 
    </div>
